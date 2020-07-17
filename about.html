@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/prahlad.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,13 +25,73 @@
 <body class="white">
     <div class="container">
         <center>
-            <h2 class="underline-skyblue">About PR CSS</h2>
+            <h2 class="text-skyblue">About PR CSS</h2>
+            <img src="./images/logo.png" style="border: 1px solid #000; border-radius: 50%;" width="100px"
+                alt="Developer Image">
+            <table>
+                <tr>
+                    <td><strong>Developer :</strong></td>
+                    <td>Prahlad Inala</td>
 
-            <h4>A Simple Yet Beautiful, Responsive Boilerplate</h4>
-            <a href="./css/prahlad.css" class="btn skyblue" download="prahlad.css">Download</a>
-            <a href="./docs.html" class="btn skyblue">Documentation</a>
+                </tr>
+                <tr>
+                    <td><strong>Version :</strong></td>
+                    <td>v1.0.0</td>
+                </tr>
+            </table>
+            <hr class="hr-bold-skyblue">
+            <h4 class="text-skyblue">Why PR CSS ?</h4>
         </center>
+
+        <ol>
+            <li>
+                Saves time in designing, so that developer can spend more time in development.
+            </li>
+            <li>
+                Beautiful colors are already picked for your web apps, so no need to waste time in color picking.
+            </li>
+            <li>
+                Style and design your web apps in no time, because it is not so complex to understand.
+            </li>
+        </ol>
         <hr class="hr-bold-skyblue">
+        <center>
+            <h4 class="text-skyblue">Contact us</h4>
+        </center>
+        <p>
+            Once try <span class="text-skyblue">PR CSS</span> and let us know your feedback. Contribute to our community
+            by giving us your valuable feedback, We are ready to take the user feedback and update ourself.
+        </p>
+        <!-- The above form looks like this -->
+        <form action="https://formspree.io/xdowpbey" method="post">
+            <div class="row">
+                <div class="six cols">
+                    <label for="exampleEmailInput">Your email</label>
+                    <input class="full-width" autofocus required name="Email ID" type="email"
+                        placeholder="ironman@avengers.com" id="exampleEmailInput">
+                </div>
+                <div class="six cols">
+                    <label for="exampleRecipientInput">Rate your experience</label>
+                    <select class="full-width" name="Rating" id="exampleRecipientInput">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Average">Average</option>
+                        <option value="Bad">Bad</option>
+                        <option value="Verybad">Very Bad</option>
+                    </select>
+                </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea name="Message" class="full-width" placeholder="Briefly explain your feedback"
+                id="exampleMessage"></textarea>
+            <input class="skyblue" type="submit" value="Submit">
+        </form>
+        <hr class="hr-bold-skyblue">
+        <center>
+            <a href="./index.html" class="btn skyblue">Home</a>
+            <a href="./docs.html" class="btn skyblue">Go to documentation</a>
+        </center>
+
     </div>
 </body>
 
